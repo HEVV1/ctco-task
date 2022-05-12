@@ -1,9 +1,9 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Show{% endblock %}
+{% block title %}Category{% endblock %}
 
 {% block body %}
-    <h1>Show Users</h1>
+    <h1>Category</h1>
 
     <table class="table">
         <tbody>
@@ -14,6 +14,18 @@
             <tr>
                 <th>Username</th>
                 <td>{{ category.username }}</td>
+            </tr>
+            <tr>
+                <th>Email</th>
+                <td>{{ category.email }}</td>
+            </tr>
+            <tr>
+                <th>Password</th>
+                <td>{{ category.password }}</td>
+            </tr>
+            <tr>
+                <th>Age</th>
+                <td>{{ category.age }}</td>
             </tr>
         </tbody>
     </table>
