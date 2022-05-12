@@ -1,0 +1,14 @@
+a,
+button {
+  display: inline-block;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background: linear-gradient(to right bottom, $color_white, $color_primary);
+  width: auto;
+  border-radius: .5rem;  
+  &:not(:last-child){
+    margin-right: 1rem;    
+  }
+}
